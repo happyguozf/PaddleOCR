@@ -38,7 +38,7 @@ def read_params():
     cfg.rec_batch_num = 30
     cfg.max_text_length = 25
 
-    cfg.rec_char_dict_path = "./ppocr/utils/dict/en_dict.txt"
+    cfg.rec_char_dict_path = "./ppocr/utils/en_dict.txt"
     cfg.use_space_char = True
 
     #params for text classifier
