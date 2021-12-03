@@ -31,14 +31,14 @@ def read_params():
 
     #params for text recognizer
     cfg.rec_algorithm = "CRNN"
-    cfg.rec_model_dir = "./inference/en_number_mobile_v2.0_rec_infer/"
+    cfg.rec_model_dir = "./inference/latin_ppocr_mobile_v2.0_rec_infer/"
 
     cfg.rec_image_shape = "3, 32, 320"
-    cfg.rec_char_type = 'EN'
+    cfg.rec_char_type = 'latin'
     cfg.rec_batch_num = 30
     cfg.max_text_length = 25
 
-    cfg.rec_char_dict_path = "./ppocr/utils/en_dict.txt"
+    cfg.rec_char_dict_path = "./ppocr/utils/dict/latin_dict.txt"
     cfg.use_space_char = True
 
     #params for text classifier
